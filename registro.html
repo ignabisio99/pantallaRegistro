@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Registro de usuario</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+            crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="assets/estilos.css">
+        <script src="assets/funcionalidades.js"></script>
+
+    </head>
+
+    <body class="d-flex justify-content-center align-items-center vh-100">
+
+
+        <form id="registro-form" class="text-center bg-white p-5 rounded-5 bg-opacity-75">
+
+            <h2 class="text-center fw-bold">Complete los siguientes datos:</h2>
+            <div class="fw-bold mt-3 letras_cajas">Crea un nombre de usuario</div>
+            <div class="input-group justify-content-center">
+                
+                <div class="input-group-text">
+                    <img 
+                        src="assets/user_icon_001.jpg"
+                        alt="username-icon"
+                        style="height: 1rem;"
+                        >
+                </div>
+                
+                <input id="usuario" class="form-control-sm" type="text" placeholder="Nombre de usuario">
+            
+            </div>
+            
+            <div class="fw-bold mt-3">Crea una contraseña</div>
+            <div class="input-group justify-content-center">
+                
+                <div class="input-group-text">
+                    <img 
+                        src="assets/descarga.png"
+                        alt="password-icon"
+                        style="height: 1rem;"
+                        > 
+                </div>
+
+                <input id="contraseña" class="form-control-sm" type="password" placeholder="Contraseña">            
+            </div>
+
+            <div>
+                <input type="submit" class="mt-3 registrarse">    
+            </div>
+            
+
+        </form>
+
+    </body>
+
+    
+</html>

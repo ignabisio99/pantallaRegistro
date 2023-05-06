@@ -1,0 +1,9 @@
+body{
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.registrarse{
+    background-color: greenyellow;
+}
